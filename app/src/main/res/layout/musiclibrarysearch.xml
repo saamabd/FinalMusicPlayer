@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cardview"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:background="@android:color/transparent"
+
+    card_view:cardBackgroundColor="@android:color/transparent"
+    card_view:cardElevation="0dp"
+
+    >
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+
+        <ImageButton
+            android:id="@+id/MusicImage"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:background="@android:color/darker_gray"
+            android:scaleType="fitXY" />
+
+        <TextView
+            android:id="@+id/ArtistName1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/MusicName1"
+            android:layout_below="@+id/MusicName1"
+            android:paddingLeft="5dp"
+            android:text="Post Malone"
+            android:textColor="@color/colorAccent"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/MusicName1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_alignParentTop="true"
+            android:layout_toEndOf="@+id/MusicImage"
+            android:paddingLeft="5dp"
+            android:paddingTop="2dp"
+            android:autoSizeTextType="none"
+            android:text="RockstarRockstarRockstarssss"
+            android:textColor="@color/colorAccent"
+            android:textSize="18dp" />
+
+        <ImageButton
+            android:id="@+id/AddPlaylist"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:background="#0000"
+            card_view:srcCompat="@android:drawable/ic_menu_add" />
+
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>
+

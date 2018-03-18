@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "263086244698",
+    "firebase_url": "https://finalmusicplayer.firebaseio.com",
+    "project_id": "finalmusicplayer",
+    "storage_bucket": "finalmusicplayer.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:263086244698:android:880f422323e65781",
+        "android_client_info": {
+          "package_name": "com.example.abdsaam.finalmusicplayer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "263086244698-j28a447eg84jktrhm6uptfpok6fpf5vs.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.abdsaam.finalmusicplayer",
+            "certificate_hash": "4cdb3d4832fd4f4cd469ba1307d1560f78fa4130"
+          }
+        },
+        {
+          "client_id": "263086244698-uhjc6pkhpq52qt0gioq1gc09hkicv4qm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCTKp_l_mmne1oiHb3c_RoA8f1zgmwg7nU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "263086244698-uhjc6pkhpq52qt0gioq1gc09hkicv4qm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
